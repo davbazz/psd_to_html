@@ -20,14 +20,14 @@ ul {
     display: block;
     width: 40px;
     height: 1px;
-    background-color: aqua;
+    background-color: aqua ;
     margin: 0 auto;
 }
 
 header {
     height: 100vh;
     padding: 2%;
-    background-image: url('img/bgk-header.png');
+    background: url('img/bgk-header.png') center center/cover no-repeat;
 }
 
 .navline {
@@ -62,13 +62,13 @@ header {
 
 .navbar > li > a:hover {
     color: aqua;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .weare {
     margin: 0 auto;
     width: 65%;
-    margin-top: 140px;
+    margin-top: 150px;
 }
 
 h1 {
@@ -77,7 +77,6 @@ h1 {
     color: #fff;
     font-size: 28px;
     line-height: 24px;
-
 }
 
 .weare > p {
@@ -104,6 +103,6 @@ h1 {
 }
 
 .button:hover {
-    box-shadow: 0 0 3px aqua;
+    box-shadow: 0 0 8px aqua;
+    transition: 0.2s;
 }
-
