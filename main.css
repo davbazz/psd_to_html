@@ -4,6 +4,8 @@
 @import 'css/meet.css';
 @import 'css/form.css';
 @import 'css/footer.css';
+@import 'css/mix.css';
+
 
 * {
     box-sizing: border-box;
@@ -26,8 +28,8 @@ ul {
 .divider {
     display: block;
     width: 40px;
-    height: 1px;
-    background-color: aqua ;
+    height: 2px;
+    background-color: #00cccc ;
     margin: 0 auto;
 }
 
@@ -51,7 +53,7 @@ header {
 }
 
 .span_logo {
-    color: aqua;
+    color: #00cccc;
     font-size: 26px;
 }
 
@@ -68,32 +70,23 @@ header {
 }
 
 .navbar > li > a:hover {
-    color: aqua;
+    color: #00cccc;
     transition: 0.2s;
 }
 
 .weare {
     margin: 0 auto;
     width: 65%;
-    margin-top: 150px;
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 28px;
-    line-height: 24px;
+    margin-top: 160px;
 }
 
 .weare > p {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     color: #fff;
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 40px;
-
+    margin-bottom: 50px;
 }
 
 .button {
@@ -101,7 +94,7 @@ h1 {
     margin: 0 auto;
     width: 130px;
     height: 40px;
-    color: aqua;
+    color: #00cccc;
     font-size: 14px;
     background-color: transparent;
     border: none;
@@ -110,6 +103,6 @@ h1 {
 }
 
 .button:hover {
-    box-shadow: 0 0 8px aqua;
+    box-shadow: 0 0 8px #00cccc;
     transition: 0.2s;
 }
