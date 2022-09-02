@@ -1,0 +1,99 @@
+footer {
+    background: url('img/bgk-footer.png');
+    padding: 3% 0;
+}
+
+.footer_third {
+    width: 33%;
+    padding-top: 50px;
+}
+
+.logo_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+}
+
+.span_logo {
+    color: #00cccc;
+    font-size: 26px;
+}
+
+.quote {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 26px; 
+}
+
+.address_telephone {
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 26px; 
+}
+
+.horizontal {
+    display: flex;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.center {
+    justify-content: center;
+}
+
+.text_white {
+    color: #fff;
+}
+
+.titles {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.icon {
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.newsletter {
+    padding-top: 20px;
+}
+
+#email {
+    background-color: transparent;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    opacity: 50%;
+    color: #fff;
+}
+
+.internal_links > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding-right: 30px;
+}
+
+.submit {
+    background: url(img/svg/paper122.svg) no-repeat;
+    background-position: center;
+    color: transparent;
+    width: 63px;
+    height: 40px;
+    background-color: #fff;
+    opacity: 35%;
+}
+
+.social_media_buttons {
+    padding-top: 15px;
+}
+
+.footer_bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
