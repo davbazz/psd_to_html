@@ -1,3 +1,10 @@
+@import 'css/ourstory.css';
+@import 'css/video.css';
+@import 'css/expertise.css';
+@import 'css/meet.css';
+@import 'css/form.css';
+@import 'css/footer.css';
+
 * {
     box-sizing: border-box;
     font-family: Georgia, sans-serif;
